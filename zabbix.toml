@@ -1,0 +1,4 @@
+[template]
+src = "zabbix.conf.php.tmpl"
+dest = "/var/www/html/conf/zabbix.conf.php"
+keys = ["/database/host", "/database/name", "/database/password", "/database/user", "/zabbix/host"]
